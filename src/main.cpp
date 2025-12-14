@@ -37,4 +37,5 @@ void loop()
   Serial.print(", ");
   Serial.print(analogRead(luxPin));
   Serial.println(" ");
+  delay(100);
 }
